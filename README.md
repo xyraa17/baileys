@@ -283,7 +283,7 @@ await sock.sendMessage(jid, {
         footer: "telegram: @xyraamaklu",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "yumevtc.pdf",
+        fileName: "xyraa.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [jid],
@@ -325,7 +325,7 @@ await sock.sendMessage(jid, {
         footer: "telegram: @xyraamaklu",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "yumevtc.pdf",
+        fileName: "xyraa.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
